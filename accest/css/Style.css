@@ -1,8 +1,9 @@
 body {
-	margin: 0;
+	margin: 0 auto;
 	line-height: 0;
 	color: #333;
-
+	background: white;
+	font-family: Nunito;
 
 	width: 1152px;
 	height: 4725px;
@@ -19,65 +20,407 @@ border: 5px solid #333333
 
 }
 h1, h2, h3, h4, h5, h6{
-	margin: 0;
+	margin: 0 ;
 }
 
+/*  Header  */
 .header{
+	position: absolute;
 	width: 1152px;
 	height: 80px;
-	margin: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	margin: 0 auto;
+	padding-top: 20px;
 
-	border: 5px solid	#4A5;
-	box-sizing: border-box;
 }
 
+.conteiner{
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.headernav{
+	font-family: Nunito;
+	font-size: 16px;
+	margin-right: 80px;
+}
+
+.Header_nav1{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+	color: rgba(34, 34, 34, 0.75);
+}
+
+.Header_nav1:hover{
+	color: #DAA520;
+	font-weight: 800;
+	transition: color 0.3s linear;
+}
+
+
+.SingUP{
+
+	background: #F9BDBD;
+	border: 1px solid #3E3F43;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+	font-weight: bold;
+	text-decoration: none;
+	color: #3E3F43;
+}
+
+.SingUP:hover{
+	background: #333;
+	color:#BD2;
+	transition: color 0.3s linear;
+}
+
+
+.Header_Logo{
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 0.25em;
+	margin-left: 118px;
+	color: #3E3F43;
+}
 
 /* SECTION*/
 #firstsection{
 	width: 1152px;
 	height: 800px;
-	margin: 0;
+	margin: 0 auto;
+	margin-bottom: 120px;
 
-	border: 4px solid #3A5BF3;
-	box-sizing: border-box;
 }
 
-.undersection{
-	width: 1152px;
-	height: 120px;
-	margin: 0;
-
-	border: 5px solid #1Bd;
-	box-sizing: border-box;
-}
 
 #section2{
 	width: 1152px;
 	height: 950px;
-	margin: 0;
+	margin: 0 auto;
+	margin-bottom: 120px;
 
 	border: 5px solid #7A6BC6;
 	box-sizing: border-box;
 }
 
 
-.section2{
-	position: absolute;
+#section3{
+
 	width: 952px;
 	height: 453px;
-	left: 100px;
-	top: 1990px;
+	margin: 0 auto;
+	margin-bottom: 120px;
 
 	border: 5px solid #555AFF;
 	box-sizing: border-box;
 
 }
 
+
+
+#section4{
+	width: 952px;
+	height: 978px;
+	margin: 0 auto;
+	margin-bottom: 120px;
+
+
+	border: 5px solid #153;
+	box-sizing: border-box;
+}
+
+#section5{
+	width: 952px;
+	height: 489px;
+	margin: 0 auto;
+	margin-bottom: 120px;
+
+	border: 5px solid #922;
+	box-sizing: border-box;
+}
+
 #footer{
 	width: 1152px;
 	height: 455px;
+	margin: 0 auto;
 
 	border: 5px solid #633;
 	box-sizing: border-box;
 
+}
+
+
+
+/*--------------f-logo---------------------*/
+
+.f1{
+left: 80px;
+top: 25.79px;
+
+	position: absolute;
+	width: 14.29px;
+	height: 12.5px;
+
+	border: 1px solid #DAA520;
+	box-sizing: border-box;
+	border-radius: 0 60%;
+}
+
+.f2{
+left: 95.71px;
+top: 24px;
+
+	position: absolute;
+	width: 12.5px;
+	height: 14.29px;
+
+	border: 1px solid #DAA520;
+	box-sizing: border-box;
+	border-radius: 60% 0;
+}
+
+.f3{
+	left: 95.71px;
+	top: 39.71px;
+
+	position: absolute;
+	width: 14.29px;
+	height: 12.5px;
+
+	border: 1px solid #DAA520;
+	box-sizing: border-box;
+	border-radius: 0 60%;
+}
+
+.f4{
+left: 81.79px;
+top: 39.71px;
+
+	position: absolute;
+	width: 12.5px;
+	height: 14.29px;
+
+	border: 1px solid #DAA520;
+	box-sizing: border-box;
+	border-radius: 60% 0;
+}
+
+/*---------------------------------------*/
+
+
+
+/*   section1   */
+
+
+/*Sect1_text*/
+.sect1_text{
+	width: 504px;
+	height: 376px;
+	margin-top: 217px;
+	margin-left: 102px;
+	font-family: Nunito;
+
+}
+
+
+.sect1_toptext{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 49px;
+	margin: 0;
+	color: #3E3F43;
+	margin-bottom: 16px;
+}
+
+.sect1_bottontext{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 98px;
+	margin: 0;
+	color: #313235;
+	margin-bottom: 16px;
+}
+
+.Explore_F{
+	width: 175px;
+	height: 50px;
+	background: #DAA520;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.Exp_F{
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	margin-left: 24px;
+
+	color: #FFFFFF;
+}
+
+/*-----------------------------------*/
+
+/*Background-right*/
+
+.right_ground{
+	width: 370px;
+	height: 800px;
+	margin-left: 167;
+	background: #F9BDBD;
+	border-radius: 0 0 0 130px;
+}
+
+
+.Sec1{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+/*///////////////////Logo-background///////////////////////*/
+.logotip2{
+	position: absolute;
+	width: 382px;
+	height: 382px;
+	left: 422;
+	top: 0;
+
+}
+
+
+.fl1{
+	position: absolute;
+	width: 181.9px;
+	height: 159.17px;
+	left: 522px;
+	top: 422.74px;
+
+	border: 1px solid rgba(137, 66, 66, 0.2);
+	box-sizing: border-box;
+	border-radius: 0 80px;
+}
+
+.fl2{
+	position: absolute;
+	width: 159.17px;
+	height: 181.9px;
+	left: 722.1px;
+	top: 400px;
+
+	border: 1px solid rgba(137, 66, 66, 0.2);
+	box-sizing: border-box;
+	border-radius: 80px 0;
+}
+
+.fl3{
+	position: absolute;
+	width: 181.9px;
+	height: 159.17px;
+	left: 722.1px;
+	top: 600.1px;
+
+	border: 1px solid rgba(137, 66, 66, 0.2);
+	box-sizing: border-box;
+	border-radius: 0 80px;
+}
+
+.fl4{
+	position: absolute;
+	width: 159.17px;
+	height: 181.9px;
+	left: 544.74px;
+	top: 600.1px;
+
+	border: 1px solid rgba(137, 66, 66, 0.2);
+	box-sizing: border-box;
+	border-radius: 80px 0;
+}
+
+/*//////////////////end//////////////////////////*/
+
+.simple_table{
+	position: absolute;
+	width: 568px;
+	height: 577px;
+	left: 965px;
+	top: 165px;
+	z-index: 1000;
+
+
+	background: url("../img/Simple-modern-balcony-small-coffee-table-living-room-small-apartment-sofa-side-table-simple-home-bedroom 1.png")
+}
+
+/*-------------END SECTION 1--------------------------*/
+
+/*------------------SECTION2-------------------------*/
+
+.sec2_colontitul{
+	width: 952px;
+	height: 98px;
+	margin:0 100px;
+	align-content: center;
+
+	border: 5px solid red
+}
+.container2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/*///////////////////////////logo///////////*/
+.logotip_sec2{
+	width: 30px;
+	height: 30px;
+
+	border: 5px solid green;
+}
+
+/*//////////////////////////////*/
+
+.sec2_toptext{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+
+
+	color: #3E3F43;
+
+}
+
+.ligne{
+	width: 316px;
+	height: 0px;
+
+	border: 1px solid #000000;
+}
+
+.ABOUT{
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 98px;
+text-align: right;
+
+color: rgba(34, 34, 34, 0.1);
 }
