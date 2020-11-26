@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 800px;
 	margin: 0 auto;
 	margin-bottom: 120px;
-
+	font-family: Nunito;
 }
 
 
@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 950px;
 	margin: 0 auto;
 	margin-bottom: 120px;
+	font-family: Nunito;
 
 	border: 5px solid #7A6BC6;
 	box-sizing: border-box;
@@ -126,6 +127,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 453px;
 	margin: 0 auto;
 	margin-bottom: 120px;
+	font-family: Nunito;
 
 	border: 5px solid #555AFF;
 	box-sizing: border-box;
@@ -139,6 +141,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 978px;
 	margin: 0 auto;
 	margin-bottom: 120px;
+	font-family: Nunito;
 
 
 	border: 5px solid #153;
@@ -150,6 +153,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 489px;
 	margin: 0 auto;
 	margin-bottom: 120px;
+		font-family: Nunito;
 
 	border: 5px solid #922;
 	box-sizing: border-box;
@@ -159,6 +163,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 1152px;
 	height: 455px;
 	margin: 0 auto;
+	font-family: Nunito;
 
 	border: 5px solid #633;
 	box-sizing: border-box;
@@ -363,7 +368,7 @@ top: 39.71px;
 	position: absolute;
 	width: 568px;
 	height: 577px;
-	left: 965px;
+	left: 584px;
 	top: 165px;
 	z-index: 1000;
 
@@ -374,38 +379,126 @@ top: 39.71px;
 /*-------------END SECTION 1--------------------------*/
 
 /*------------------SECTION2-------------------------*/
+.container2{
+
+}
+
 
 .sec2_colontitul{
 	width: 952px;
 	height: 98px;
 	margin:0 100px;
-	align-content: center;
 
-	border: 5px solid red
-}
-.container2{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-/*///////////////////////////logo///////////*/
-.logotip_sec2{
-	width: 30px;
-	height: 30px;
 
-	border: 5px solid green;
+.sec2_topinfo{
+	width: 1152px;
+	height: 388px;
+	display: flex;
+	margin-top: 40px;
+
 }
 
-/*//////////////////////////////*/
+
+.sec2_img{
+	position:relative;
+	width: 426px;
+	height: 388px;
+	margin-left: 100px;
+}
+
+
+.sec2_info{
+	width: 448px;
+	height: 180px;
+	margin-top: 104px;
+	margin-left: 100px;
+}
+
+
+
+.sec2_customized{
+	width: 1152px;
+	height: 384px;
+	padding-left: 100px;
+	display: flex;
+	margin-top: 40px;
+}
+/*///////////////////////////logo///////////*/
+.logotip_sec2{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	left: 20px;
+}
+
+
+.fs21{
+	position: absolute;
+	width: 14.29px;
+	height: 12.5px;
+	top: 2.15px;
+	z-index: 1;
+
+	border: 1px solid rgba(137, 121, 66, 0.5);
+	box-sizing: border-box;
+	border-radius: 0 60%;
+}
+
+.fs22{
+	position: absolute;
+	width: 12.5px;
+	height: 14.29px;
+	left: 1.27px;
+	top: 15.65px;
+	z-index: 1;
+
+	border: 1px solid rgba(137, 121, 66, 0.5);
+	box-sizing: border-box;
+	border-radius: 60% 0;
+}
+
+.fs23{
+	position: absolute;
+	width: 14.29px;
+	height: 12.5px;
+	top:  15.65px ;
+	left: 16px;
+	z-index: 1;
+
+	border: 1px solid rgba(137, 121, 66, 0.5);
+	box-sizing: border-box;
+	border-radius: 0 60%;
+}
+
+.fs24{
+	position: absolute;
+	width: 12.5px;
+	height: 14.29px;
+	top: 0;
+	left: 16px;
+	z-index: 1;
+
+	border: 1px solid rgba(137, 121, 66, 0.5);
+	box-sizing: border-box;
+	border-radius: 60% 0;
+}
+/*/////////////head_text/////////////////*/
+.top_text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 .sec2_toptext{
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
 
-
 	color: #3E3F43;
-
 }
 
 .ligne{
@@ -415,7 +508,7 @@ top: 39.71px;
 	border: 1px solid #000000;
 }
 
-.ABOUT{
+.sec2_Righttext{
 font-style: normal;
 font-weight: 800;
 font-size: 72px;
@@ -423,4 +516,466 @@ line-height: 98px;
 text-align: right;
 
 color: rgba(34, 34, 34, 0.1);
+}
+
+
+/*////////////////end head text///////////*/
+
+
+/*     Top info........*/
+
+
+.sec2_img_background{
+
+	width: 278px;
+	height: 388px;
+
+border-radius: 0 100px 0 100px;
+
+	background: #F7DEA6;
+}
+
+.sec2_img_img{
+	position: absolute;
+	width: 388px;
+	height: 306px;
+	top: 82px;
+	left: 38px;
+
+background: url("../img/Kalmar-Home-7-pc-Acacia-Wood-Salad-Bowl-Set 1 (1).png");
+}
+
+.sec2_toptext_top{
+	text-align: left;
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 49px;
+	padding-bottom: 16px;
+
+	color: #3E3F43;
+}
+
+.sec2_toptext_bot{
+	text-align: left;
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 33px;
+
+	color: #000000;
+}
+
+
+/*.....end top indo     */
+
+
+/*    Bot info        */
+
+
+
+.sec2_bottext{
+	width: 648px;
+	height: 131px;;
+	text-align: left;
+	margin-top: 108px;
+
+}
+
+.sec2_bottext_top{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 49px;
+	margin: 0;
+
+	color: #000000;
+}
+
+.sec2_bottest_bot{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 33px;
+	margin-top: 16px;
+
+	color: #333;
+}
+
+.sec2_bottest_img{
+	width: 287px;
+	height: 384px;
+margin-left: 115px;
+	background: url("../img/Script-Online-Ado-Beech-Steel-Spoon-Set-Of-3-52151704SD00001-PDP-Gallery-D-01 1.png");
+}
+
+
+/*______============SECTION2 END =============_____________*/
+
+
+/*---------------------SECTION 3---------------------------*/
+
+
+
+.sec3_colontitul{
+	width: 952px;
+	height: 98px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*////////Head LOGO //////////*/
+
+.logotip_sec3{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	left: 20px;
+}
+
+
+
+/*===========Head Text ==================*/
+
+.sec3_toptext{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+
+	color: #3E3F43;
+}
+
+
+
+.sec3_Righttext{
+	font-style: normal;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 98px;
+	text-align: right;
+
+	color: rgba(34, 34, 34, 0.1);
+}
+
+.ligne3{
+width: 65px;
+height: 0px;
+background: #000000;
+border: 1px solid #000000;
+}
+
+/*   end head text    */
+
+
+
+/*---------===========section 3 navigation=========--------*/
+
+.sec3_navigation{
+
+	position: relative;
+	width: 952px;
+	height: 177px;
+}
+
+.sec3_nav{
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+
+}
+
+/*GRUP 1*/
+
+.sec3_grup1{
+	position: static;
+	width: 238px;
+	height: 177px;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+
+.sec3_number1{
+	position: absolute;
+	width: 58px;
+	height: 131px;
+	left: 17px;
+	top: 18.5px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 96px;
+	line-height: 131px;
+
+	text-align: center;
+
+	color: rgba(249, 189, 189, 0.25);
+}
+
+.sec3_Grup1_text{
+	position: absolute;
+	width: 238px;
+	height: 33px;
+	left: 0px;
+	top: 100px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.sec3_nav_grup1{
+	position: absolute;
+	width:120px;
+	height: 96.77px;
+	left: 59px;
+	top: 11.61px;
+
+	background: url("../img/group/Group.png");
+}
+
+/*   grup1 end   */
+
+
+/*     grup 2      */
+
+.sec3_grup2{
+	position: static;
+	width: 238px;
+	height: 177px;
+
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 0px;
+
+}
+
+.sec3_number2{
+	position: absolute;
+	width: 58px;
+	height: 131px;
+	left: 267px;
+	top: 23px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 96px;
+	line-height: 131px;
+
+	text-align: center;
+	color: rgba(249, 189, 189, 0.25);
+}
+
+.sec3_Grup2_text{
+	position: absolute;
+	width: 238px;
+	height: 33px;
+	left: 238px;
+	top: 100px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.sec3_nav_grup2{
+	position: absolute;
+	width: 69.68px;
+	height: 120px;
+	left: 322.16px;
+	top: 0px;
+
+	background:  url("../img/group/Group (1).png");
+}
+
+/*   Grup 2 end    */
+
+/*      grup 3     */
+
+.sec3_grup3{
+	position: static;
+	width: 238px;
+	height: 177px;
+
+
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 0px 0px;
+
+}
+
+.sec3_number3{
+	position: absolute;
+	width: 58px;
+	height: 131px;
+	left: 496px;
+	top: 23.5px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 96px;
+	line-height: 131px;
+
+	text-align: center;
+	color: rgba(249, 189, 189, 0.25);
+}
+
+.sec3_Grup3_text{
+	position: absolute;
+	width: 238px;
+	height: 33px;
+	left: 476px;
+	top: 100px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.sec3_nav_grup3{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 535px;
+	top: 0px;
+
+	background: url("../img/group/cost 1.png");
+}
+
+/*   end grup 3    */
+
+
+/*   grup 4   */
+
+.sec3_grup4{
+	position: static;
+	width: 238px;
+	height: 177px;
+
+
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+	margin: 0px 0px;
+
+
+}
+
+.sec3_number4{
+	position: absolute;
+	width: 58px;
+	height: 131px;
+	left: 734px;
+	top: 23.5px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 96px;
+	line-height: 131px;
+
+	text-align: center;
+	color: rgba(249, 189, 189, 0.25);
+}
+
+.sec3_Grup4_text{
+	position: absolute;
+	width: 238px;
+	height: 33px;
+	left: 714px;
+	top: 100px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.sec3_nav_grup4{
+	position: absolute;
+	width: 100.65px;
+	height: 120px;
+	left: 782.68px;
+	top: 0px;
+
+	background: url("../img/group/Group (2).png");
+}
+
+/*     end grup4      */
+
+
+
+
+/*      nav click section 3     */
+
+.sec3_navigation2{
+	width: 212px;
+	height: 50px;
+	margin-top: 64px;
+	margin-left: 370px;
+
+
+	background: #DAA520;
+	border-radius: 4px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.sec3_navigation2:hover{
+	background: #DAA948Ad;
+	transition: color 0.2s linear;
+}
+
+
+.sec2_navclick{
+	width: 164px;
+	height: 22px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	text-decoration: none;
+margin: 24px 14px;
+
+
+	color: #FFFFFF;
+}
+
+.sec2_navclick:hover{
+	color: black;
+	transition: color 0.2s linear;
 }
